@@ -1,3 +1,9 @@
+/**
+ * make.fun entry point for the GTA 6 clip submission.
+ * Copies VIDEO.json from MAKEFUN_BOT_DIR (default /bot) into
+ * MAKEFUN_OUTPUT_DIR (default /output), creating the output dir.
+ * Node 22, standard library only.
+ */
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
